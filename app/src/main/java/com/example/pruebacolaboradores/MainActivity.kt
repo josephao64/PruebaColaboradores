@@ -9,6 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringArrayResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.pruebacolaboradores.ui.theme.PruebaColaboradoresTheme
 
@@ -43,4 +44,11 @@ fun GreetingPreview() {
     PruebaColaboradoresTheme {
         Greeting("Android")
     }
+}
+
+@Composable
+fun suma(){
+    var Num1: Int= 10
+    var num2: Int= 15
+    val sum = Num1+num2
 }
