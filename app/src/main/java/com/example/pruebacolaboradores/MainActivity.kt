@@ -51,4 +51,5 @@ fun suma(){
     var Num1: Int= 10
     var num2: Int= 15
     val sum = Num1+num2
+    
 }
